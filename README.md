@@ -24,9 +24,32 @@ MediGPT is a full-stack AI chatbot that enables users to upload healthcare-relat
 | Axios / Fetch API     | CORS Middleware     | Bedrock Embeddings    |
 
 ---
+## Frontend (React)
 
-## 📁 Project Structure
+cd frontend
+npm install
+npm start
+
+## Backend 
+
+uvicorn backend.api:app --reload
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Backend (FastAPI)
+
+#### 📦 Install requirements
+
+
 ```bash
+pip install -r requirements.txt
+# Or manually:
+pip install fastapi uvicorn python-multipart langchain chromadb boto3 python-dotenv
+
+#### 📁 Project Structure
+
 MediGPT/
 │
 ├── backend/
@@ -50,26 +73,4 @@ MediGPT/
 ├── .env # AWS Bedrock credentials
 
 
-## Frontend (React)
-
-cd frontend
-npm install
-npm start
-
-## Backend 
-
-uvicorn backend.api:app --reload
-
----
-
-## 🔧 Setup Instructions
-
-### 1. Backend (FastAPI)
-
-#### 📦 Install requirements
-
-```bash
-pip install -r requirements.txt
-# Or manually:
-pip install fastapi uvicorn python-multipart langchain chromadb boto3 python-dotenv
 
