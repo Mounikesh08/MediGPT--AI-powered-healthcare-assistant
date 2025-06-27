@@ -38,9 +38,9 @@ uvicorn backend.api:app --reload
 
 ## Project Result
 
-![Result 1](Screenshot(277).png)
+![result 1](result1.png)
 
-![Result 2](Screenshot(278).png)
+![result 2](result2.png)
 
 ---
 
