@@ -26,7 +26,7 @@ MediGPT is a full-stack AI chatbot that enables users to upload healthcare-relat
 ---
 
 ## 📁 Project Structure
-MediGPT/
+``` MediGPT/
 │
 ├── backend/
 │ ├── api.py # FastAPI app (main backend logic)
