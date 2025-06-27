@@ -48,6 +48,7 @@ MediGPT/
 │ └── vectorstore/ # Chroma vectorstore (persistent)
 ├── .env # AWS Bedrock credentials
 
+
 ## Frontend (React)
 
 cd frontend
@@ -58,5 +59,16 @@ npm start
 
 uvicorn backend.api:app --reload
 
-## Result
+---
+
+## 🔧 Setup Instructions
+
+### 1. Backend (FastAPI)
+
+#### 📦 Install requirements
+
+```bash
+pip install -r requirements.txt
+# Or manually:
+pip install fastapi uvicorn python-multipart langchain chromadb boto3 python-dotenv
 
