@@ -41,7 +41,6 @@ uvicorn backend.api:app --reload
 ![Screenshot (277)](https://github.com/user-attachments/assets/7b150ebd-8def-4d77-a132-708111df7330)
 ![Screenshot (278)](https://github.com/user-attachments/assets/98ace435-6649-454a-a2c2-8368b5ccd676)
 
-
 ---
 
 ## 🔧 Setup Instructions
