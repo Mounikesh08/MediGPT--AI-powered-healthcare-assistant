@@ -49,13 +49,13 @@ MediGPT/
 ├── .env # AWS Bedrock credentials
 
 
-### Frontend (React)
+#### Frontend (React)
 
 cd frontend
 npm install
 npm start
 
-### Backend 
+#### Backend 
 
 uvicorn backend.api:app --reload
 
