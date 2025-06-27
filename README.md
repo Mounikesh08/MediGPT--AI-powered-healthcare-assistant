@@ -38,8 +38,10 @@ uvicorn backend.api:app --reload
 
 ## Project Result
 
-![Screenshot (277).png]
+![Result 1](screenshot277png)
 
+
+![Result 2](Attendance.png)
 ---
 
 ## 🔧 Setup Instructions
